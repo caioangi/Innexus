@@ -1,0 +1,20 @@
+{
+  "tech_stack": ["TypeScript", "React", "Vite", "TailwindCSS"],
+  "features": [
+    {"name":"Routing","description":"Rotas com Home","files":["src/App.tsx","src/pages/Home.tsx"]},
+    {"name":"Hero Block","description":"Hero genérico com título, subtítulo e CTAs","files":["src/components/blocks/hero.tsx"]},
+    {"name":"Hero","description":"Hero simplificado compatível com Vite","files":["src/components/Hero.tsx"]},
+    {"name":"Animation Wrapper","description":"Fade-up/stagger via IntersectionObserver","files":["src/components/AnimationWrapper.tsx"]},
+    {"name":"Scroll Hook","description":"Disparo de animação ao entrar na viewport","files":["src/hooks/useScrollAnimation.ts"]},
+    {"name":"Posicionamento","description":"Título forte + parágrafo com linha lateral","files":["src/components/Posicionamento.tsx"]},
+    {"name":"O que Criamos","description":"Grid 3x4 minimalista com 12 itens","files":["src/components/OQueCriamos.tsx"]},
+    {"name":"Diferenciais","description":"3 cards premium com hover linear","files":["src/components/Diferenciais.tsx"]},
+    {"name":"Processo","description":"5 passos com números grandes e conector","files":["src/components/Processo.tsx"]},
+    {"name":"Projetos","description":"Cards clicáveis minimalistas","files":["src/components/Projetos.tsx"]},
+    {"name":"Planos","description":"Pricing START/GROW/SCALE","files":["src/components/Planos.tsx"]},
+    {"name":"CTA Final","description":"Chamada final com botão","files":["src/components/CTA.tsx"]},
+    {"name":"Footer","description":"Rodapé minimalista","files":["src/components/Footer.tsx"]},
+    {"name":"Paleta","description":"Tokens HSL e base Tailwind","files":["src/index.css","tailwind.config.js"]},
+    {"name":"HTML Base","description":"Fonte Inter e boot do app","files":["index.html"]}
+  ]
+}

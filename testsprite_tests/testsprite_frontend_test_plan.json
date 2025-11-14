@@ -1,0 +1,446 @@
+[
+  {
+    "id": "TC001",
+    "title": "Landing Page Dark Mode Continuity",
+    "description": "Verify that the landing page displays a continuous dark mode visual experience with no visual breaks or inconsistent color shifts throughout all sections on both desktop and mobile devices.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Open the landing page on a desktop browser."
+      },
+      {
+        "type": "assertion",
+        "description": "Check that all sections maintain a consistent dark mode color palette without visible color transitions or breaks."
+      },
+      {
+        "type": "action",
+        "description": "Resize the browser or use mobile emulation to simulate mobile devices."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm continuous dark mode is preserved and consistent on all viewport sizes."
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "title": "Typography Hierarchy Verification",
+    "description": "Check that typography sizes meet requirements, specifically that desktop titles range between 48px to 56px, ensuring visual hierarchy is consistent across the landing page.",
+    "category": "ui",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to the landing page on desktop viewport."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that all main titles have font sizes between 48px and 56px."
+      },
+      {
+        "type": "assertion",
+        "description": "Ensure subheadings and paragraph texts follow a clear hierarchy consistent with minimalistic design."
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "title": "Hero Section Content and CTA Interaction",
+    "description": "Validate the Hero section includes a prominent badge, headline, subheadline, and two CTAs (default and outline). Verify both CTAs are interactive and navigate appropriately (placeholder links).",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Load the landing page and locate the Hero section."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm presence of a prominent badge, headline, and subheadline text content."
+      },
+      {
+        "type": "assertion",
+        "description": "Locate both CTAs, verify their display styles (default and outline)."
+      },
+      {
+        "type": "action",
+        "description": "Click each CTA button one by one."
+      },
+      {
+        "type": "assertion",
+        "description": "Check that clicking the CTAs triggers the expected placeholder navigation or event."
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "title": "Posicionamento Section Layout and Content",
+    "description": "Ensure the Posicionamento section displays a strong title with a vertical line and a concise paragraph, all in continuous dark mode styling.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Scroll to the Posicionamento section on the landing page."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the title includes a vertical line to its side styled appropriately."
+      },
+      {
+        "type": "assertion",
+        "description": "Check the title text is strong and visually distinct."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm the paragraph below the title is concise and is styled consistent with dark mode colors."
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "title": "O Que Criamos Section Grid Integrity",
+    "description": "Validate that the O Que Criamos section displays exactly 12 items arranged in a 3x4 grid, each item showing only a minimalist title without any descriptions.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Locate the O Que Criamos section by scrolling."
+      },
+      {
+        "type": "assertion",
+        "description": "Count that there are exactly 12 items displayed."
+      },
+      {
+        "type": "assertion",
+        "description": "Check the grid layout matches 3 columns and 4 rows."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify each item displays only a title text with no accompanying description."
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "title": "Diferenciais Section Cards and Hover Effects",
+    "description": "Verify the Diferenciais section includes exactly three premium cards, each having a title and brief description. Confirm presence of subtle linear hover light effect and stagger animation on load.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Scroll to the Diferenciais section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that there are exactly three cards present."
+      },
+      {
+        "type": "assertion",
+        "description": "Check each card includes a clearly visible title and a brief description."
+      },
+      {
+        "type": "action",
+        "description": "Hover over each card one by one."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm the presence of subtle linear hover light animation on hover."
+      },
+      {
+        "type": "action",
+        "description": "Reload the page and observe the initial load animation of these cards."
+      },
+      {
+        "type": "assertion",
+        "description": "Ensure the stagger fade-up animation runs smoothly on page load or section entry."
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "title": "Processo Section Step Display and Connector",
+    "description": "Check that the Processo section displays five steps with large floating numbers (1 to 5) and a discreet vertical connector line linking them, styled in line with the dark mode palette.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Locate the Processo section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify five steps are shown with large, prominent floating numeric labels from 1 to 5."
+      },
+      {
+        "type": "assertion",
+        "description": "Check presence of a vertical connector line connecting the steps respectfully and styled discreetly."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm that styling matches continuous dark mode palette."
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "title": "Projetos Section Cards Interactivity and Hover Effect",
+    "description": "Validate that the Projetos section displays exactly five clickable minimalist cards, each with subtle border glow effects on hover. Clicking each card triggers the appropriate placeholder action.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Scroll to the Projetos section."
+      },
+      {
+        "type": "assertion",
+        "description": "Check that there are exactly five cards."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify each card is clickable."
+      },
+      {
+        "type": "action",
+        "description": "Hover over each card."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm subtle border glow effect (#1a1a1a color) appears smoothly on hover."
+      },
+      {
+        "type": "action",
+        "description": "Click each card individually."
+      },
+      {
+        "type": "assertion",
+        "description": "Check that clicking triggers a placeholder navigation or event."
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "title": "Planos Section Pricing Table and CTA Functionality",
+    "description": "Verify the Planos section shows three price plans START, GROW (highlighted), and SCALE with detailed features listed. Each plan card includes a call-to-action button that works with placeholder links.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Locate the Planos pricing section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify presence of three distinct pricing plans named START, GROW and SCALE."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm that the GROW plan is visually highlighted compared to the others."
+      },
+      {
+        "type": "assertion",
+        "description": "Check each plan displays detailed feature lists appropriately."
+      },
+      {
+        "type": "action",
+        "description": "Click the CTA button on each pricing plan."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify each CTA triggers the assigned placeholder navigation or scheduling action."
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "title": "Final CTA Section Call-to-Action",
+    "description": "Verify the final CTA section displays a strong call phrase and a clearly visible scheduling button, with the button interactive and triggering the expected placeholder action.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Scroll to the Final CTA section."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm presence of a strong, concise call phrase encouraging scheduling."
+      },
+      {
+        "type": "assertion",
+        "description": "Check that the scheduling button is ultra-minimalistic and prominent."
+      },
+      {
+        "type": "action",
+        "description": "Click the scheduling button."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the button triggers a placeholder scheduling function or navigation."
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "title": "Footer Brand and Information Display",
+    "description": "Check the footer is minimalistic and displays brand and basic information correctly with consistent dark mode styling.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Scroll to the bottom of the landing page to view the footer."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify brand name or logo is present in the footer."
+      },
+      {
+        "type": "assertion",
+        "description": "Check for basic information area content such as copyright or contact info."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm footer colors conform to continuous dark mode palette."
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "title": "Animation Wrapper and Scroll Animation Hook Execution",
+    "description": "Validate that smooth fade-up and staggered animations activate properly on section entries using IntersectionObserver and the useScrollAnimation hook under varied scroll behaviors.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Load the landing page and slowly scroll down through each section."
+      },
+      {
+        "type": "assertion",
+        "description": "Observe that each section's fade-up and stagger animations trigger smoothly upon entering the viewport."
+      },
+      {
+        "type": "action",
+        "description": "Scroll quickly back and forth to test animation re-triggering where applicable."
+      },
+      {
+        "type": "assertion",
+        "description": "Ensure no erratic or janky animations occur and all remain smooth and performant."
+      }
+    ]
+  },
+  {
+    "id": "TC013",
+    "title": "Accessibility Compliance Check - Contrast and Semantic Structure",
+    "description": "Verify accessibility standards are met including AA contrast level for text and interactive elements, semantic heading structure with one unique H1 and proper H2 for sections, and keyboard navigation usability.",
+    "category": "accessibility",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Use accessibility testing tools or manual inspection to analyze color contrast ratios for text and buttons."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm all text and UI elements meet AA contrast standards."
+      },
+      {
+        "type": "action",
+        "description": "Inspect HTML markup or use accessibility tree tools to verify unique single H1 heading exists."
+      },
+      {
+        "type": "assertion",
+        "description": "Check section headings use semantic H2 tags appropriately."
+      },
+      {
+        "type": "action",
+        "description": "Navigate through all interactive elements using keyboard Tab and Shift+Tab keys."
+      },
+      {
+        "type": "assertion",
+        "description": "Ensure all CTAs and interactive cards are reachable, visible focus outlines appear, and usability is intact."
+      }
+    ]
+  },
+  {
+    "id": "TC014",
+    "title": "SEO Metadata and Structure Validation",
+    "description": "Verify the landing page SEO best practices are implemented properly including unique H1, distinct H2 headings for each section, and meta tags for performance and indexing.",
+    "category": "seo",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Inspect the page source to locate the single unique H1 heading."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm all main content sections contain semantic H2 headings with descriptive text."
+      },
+      {
+        "type": "action",
+        "description": "Review meta tags such as title, description, viewport, and robots in the HTML head."
+      },
+      {
+        "type": "assertion",
+        "description": "Ensure they align with SEO best practices for a landing page."
+      }
+    ]
+  },
+  {
+    "id": "TC015",
+    "title": "Performance Benchmark - Lighthouse Scores",
+    "description": "Check the landing page meets or exceeds Lighthouse benchmarks: Performance score greater than 85, Accessibility above 90, and SEO above 90.",
+    "category": "performance",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Run Lighthouse audit on desktop and mobile for the landing page."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify Performance score is > 85."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify Accessibility score is > 90."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify SEO score is > 90."
+      }
+    ]
+  },
+  {
+    "id": "TC016",
+    "title": "Responsive Layout Verification Across Devices",
+    "description": "Ensure all landing page sections (Hero, Posicionamento, O Que Criamos, Diferenciais, Processo, Projetos, Planos, Final CTA, Footer) adapt seamlessly to different viewport sizes including desktop, tablet, and mobile with no layout breaking or content clipping.",
+    "category": "ui",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Load the landing page in various viewport sizes or device simulators (desktop, tablet, mobile)."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that all sections are fully visible with correct alignment and spacing."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm grid layouts, typography, and CTAs scale and reposition appropriately without overlap or clipping."
+      },
+      {
+        "type": "assertion",
+        "description": "Check interactive elements remain accessible and usable on all device viewports."
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:5173",
+  "executionArgs": {
+    "projectName": "INNEXUS",
+    "projectPath": "E:\\PROGRAMACAO\\INNEXUS",
+    "testIds": [],
+    "additionalInstruction": "Usar preview fixo http://localhost:5173/. Validar dark mode contínuo, tipografia HERO 56px desktop, Posicionamento, OQueCriamos (grid 3x4), Diferenciais (3 cards), Processo (5 passos), Projetos (cards), Planos (pricing), CTA final e Footer; gerar relatório consolidado.",
+    "envs": {
+      "API_KEY": "sk-user-t1Ho4_C5OozJhUcSTVESy-1XbS4oobk4smfkioc1Tqujet-7gy2n5mbVpHwuwKD7G_LqciGOGK5vf_aFs-iLhSa_l4f9R112f2TcbyGxS7JcCKuMlDECZA4g5S99pObTJGc"
+    }
+  },
+  "proxy": "http://fdd0b54a-b0e8-4bd0-b54e-27298bdc5fa4:sk6lKTzBFannVYEmi5AqQvsFbuo9ikFJ@tun.testsprite.com:8080"
+}

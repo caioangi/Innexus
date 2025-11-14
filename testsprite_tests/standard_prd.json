@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "project": "INNEXUS Landing Page",
+    "date": "2025-11-12",
+    "prepared_by": "Software Development Manager"
+  },
+  "product_overview": "INNEXUS Landing Page is a premium, dark mode unified React-based landing page designed to position INNEXUS's brand and generate leads through a focused call-to-action for scheduling meetings. The style follows modern, minimalistic, and ultra-clean design principles inspired by brands like Linear, Vercel, and Raycast, ensuring a sophisticated user experience with smooth animations and responsive layouts.",
+  "core_goals": [
+    "Communicate INNEXUS's unique value proposition with clarity and elegance",
+    "Drive user conversion primarily via the 'Agendar Reunião' CTA",
+    "Showcase portfolio sections and pricing plans effectively",
+    "Maintain a continuous dark mode visual experience for a premium UX",
+    "Ensure accessibility compliance and SEO best practices"
+  ],
+  "key_features": [
+    "Hero section with prominent badge, headline, subheadline, and dual CTAs (default and outline)",
+    "Posicionamento section featuring a strong title with a vertical line and concise paragraph in continuous dark mode",
+    "O que Criamos section laid out in a 3x4 grid displaying 12 minimalist titled items",
+    "Diferenciais section with three premium cards, each with a title and brief description, featuring subtle hover animations",
+    "Processo section showing five steps with large floating numbers and a discreet vertical connector",
+    "Projetos section showcasing five clickable minimalist cards, each with subtle border glow effects on hover",
+    "Planos section presenting three price plans (START, GROW highlighted, SCALE) with detailed features and CTAs",
+    "Final CTA section with a strong call phrase and scheduling button",
+    "Footer providing a minimalistic brand and basic information area",
+    "Smooth fade-up and staggered animations using IntersectionObserver",
+    "Continuous dark mode color palette implemented with TailwindCSS and HSL tokens"
+  ],
+  "user_flow_summary": [
+    "User lands on the Home page via React Router routing",
+    "Views the Hero block with immediate positioning and CTAs for engagement",
+    "Scrolls down to see Posicionamento delivering the brand promise with clear copy",
+    "Navigates through the O que Criamos grid to understand offerings",
+    "Explores Diferenciais cards with subtle hover highlights to grasp unique differentials",
+    "Learns about the Processo steps showcasing the working methodology",
+    "Clicks on Projetos minimal cards to see project highlights",
+    "Reviews Planos pricing tables and selects a plan pacing through CTAs",
+    "Engages with the final CTA to schedule a meeting via a clear button",
+    "Navigates to Footer for brand info and completes session"
+  ],
+  "validation_criteria": [
+    "Landing page maintains continuous dark mode without visual breaks",
+    "Typography hierarchy matches prescribed sizes (titles 48–56px desktop)",
+    "Animations implement smooth fade-up and stagger transitions consistently",
+    "O que Criamos section grid features 12 items with only titles, no descriptions",
+    "Diferenciais includes exactly three cards with subtle linear hover light effect",
+    "Performance benchmarks Lighthouse scores: Performance > 85, Accessibility (A11y) > 90, SEO > 90",
+    "CTAs interactivity tested with placeholder links ready for integration",
+    "Accessibility checked for AA contrast and semantic heading structure",
+    "SEO validated with unique H1 and section H2 headings",
+    "Responsive layout across desktop and mobile devices verified"
+  ],
+  "code_summary": {
+    "tech_stack": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Routing",
+        "description": "Aplicação usa react-router-dom para rotas básicas, com Home como página principal.",
+        "files": [
+          "src/App.tsx",
+          "src/pages/Home.tsx"
+        ]
+      },
+      {
+        "name": "Hero Block",
+        "description": "Componente genérico de Hero com título, subtítulo e ações, estilizado para dark mode premium.",
+        "files": [
+          "src/components/blocks/hero.tsx"
+        ]
+      },
+      {
+        "name": "Animation Wrapper",
+        "description": "Wrapper de animação baseado em IntersectionObserver para fade-up/stagger ao entrar na viewport.",
+        "files": [
+          "src/components/AnimationWrapper.tsx"
+        ]
+      },
+      {
+        "name": "Hook de Scroll Animation",
+        "description": "Hook simples para disparar animação quando a seção entra em viewport.",
+        "files": [
+          "src/hooks/useScrollAnimation.ts"
+        ]
+      },
+      {
+        "name": "Seção Posicionamento",
+        "description": "Título forte com linha lateral e parágrafo curto em dark mode contínuo.",
+        "files": [
+          "src/components/Posicionamento.tsx"
+        ]
+      },
+      {
+        "name": "Seção O que Criamos",
+        "description": "Grid 3x4 com 12 itens minimalistas, somente títulos, sem descrições.",
+        "files": [
+          "src/components/OQueCriamos.tsx"
+        ]
+      },
+      {
+        "name": "Seção Diferenciais",
+        "description": "Três cards premium com título e descrição, hover linear sutil e animação stagger.",
+        "files": [
+          "src/components/Diferenciais.tsx"
+        ]
+      },
+      {
+        "name": "Seção Processo",
+        "description": "Passos 1–5 com números grandes flutuantes e conector vertical discreto.",
+        "files": [
+          "src/components/Processo.tsx"
+        ]
+      },
+      {
+        "name": "Seção Projetos",
+        "description": "Cards clicáveis minimalistas com borda #1a1a1a e brilho linear sutil no hover.",
+        "files": [
+          "src/components/Projetos.tsx"
+        ]
+      },
+      {
+        "name": "Seção Planos",
+        "description": "Tabela de preços com START, GROW (destaque) e SCALE, CTA por card.",
+        "files": [
+          "src/components/Planos.tsx"
+        ]
+      },
+      {
+        "name": "Seção CTA Final",
+        "description": "Chamada final ultra-minimal com botão de agendamento.",
+        "files": [
+          "src/components/CTA.tsx"
+        ]
+      },
+      {
+        "name": "Footer",
+        "description": "Rodapé minimalista com marca e informações básicas.",
+        "files": [
+          "src/components/Footer.tsx"
+        ]
+      },
+      {
+        "name": "Paleta e Tokens de Estilo",
+        "description": "Tokens HSL e camadas base do Tailwind para paleta dark contínua.",
+        "files": [
+          "src/index.css",
+          "tailwind.config.js"
+        ]
+      },
+      {
+        "name": "HTML Base",
+        "description": "Index HTML com fonte Inter e inicialização do app.",
+        "files": [
+          "index.html"
+        ]
+      }
+    ]
+  }
+}
